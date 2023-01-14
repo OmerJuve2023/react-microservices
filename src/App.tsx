@@ -1,18 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ListEmployeesComponent from "./components/ListEmployeesComponent";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          comenzando con react
-        </p>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <ListEmployeesComponent/>
+        </div>
+    );
 }
 
 export default App;
